@@ -1,16 +1,22 @@
+[![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
+
 # Frontend Masters CSS Foundations
+Welcome to Frontend Masters CSS Foundations! You can find the course information [here][course].
 
 # How To Follow Along
 
 There are seven chapters to this course. You can find the slides for each chapter below.
 
-1. [Introduction]()
-2. [Foundation]()
-3. [Header]()
-4. [Home]()
-5. [Speakers]()
-6. [Responsive Layout]()
-7. [Wrap Up]()
+1. [Introduction](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-introduction.pdf)
+2. [Foundation](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-foundation.pdf)
+3. [Header](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-header.pdf)
+4. [Home](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-home.pdf)
+5. [Speakers](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-speakers.pdf)
+6. [Responsive Layout](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-responsive-layout.pdf)
+7. [Wrap Up](https://static.frontendmasters.com/assets/courses/2023-08-30-css-foundations/css-foundations-wrap-up.pdf)
+
+You can view the design files for our project website [here](https://www.figma.com/file/LEzNgBz63KLExeHNUyLCwH/FEM-CSS?type=design&node-id=0-1).
+![Figma showing project](./readme-images/figma.png)
 
 To use this repository, complete the following steps:
 
@@ -39,9 +45,9 @@ Optionally you can use [GitHub Desktop](https://desktop.github.com/) if you pref
 main
  |_ foundation
     |_header
-		|_ home
-			|_ speakers
-                |_ responsive-layout
+	|_ home
+	  |_ speakers
+            |_ responsive-layout
 ```
 
 To check out a new branch run `git checkout [branch-name]` (i.e. `git checkout home`)
@@ -60,7 +66,10 @@ Below are the visual settings I use in my code editor.
 - **Live Server**: Hot reloads HTML pages when we save files.
   ![Live Server](./readme-images/live-server.png)
 - **Prettier**:Formats our code when we save our files.
-  ![Prettier](./readme-images/prettier.png)
+
+![Prettier](./readme-images/prettier.png)
+- **Color Highlight**: Styles CSS colors.
+![Color Highlight](./readme-images/color-highlight.png)
 
 To get Prettier to work properly I had to add a few configurations in my `settings.json` file. To open this file press `command + p` on Mac, and enter `Preferences: Open Workplace Settings (JSON)`. Enter the following in the `settings.json` file and save.
 
@@ -91,20 +100,5 @@ To get Prettier to work properly I had to add a few configurations in my `settin
 - https://unsplash.com/photos/QJEVpydulGs
 - https://unsplash.com/photos/p5BoBF0XJUA
 
-## Fonts
-
-https://fonts.google.com/specimen/Inter?query=inter
-
-# VSCode Settings
-
-```
-{
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    }
-}
-```
+[fem]: https://frontendmasters.com
+[course]: https://frontendmasters.com/courses/css-foundations/
